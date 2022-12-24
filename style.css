@@ -22,11 +22,16 @@ header b {
 }
 
 body {
-    background: #000 url(http://klubmama.ru/uploads/posts/2022-08/1660182032_38-klubmama-ru-p-novogodnii-fon-podelki-foto-45.jpg); /* Фоновый цвет и фоновый рисунок*/
+  background: #000 url(http://klubmama.ru/uploads/posts/2022-08/1660182032_38-klubmama-ru-p-novogodnii-fon-podelki-foto-45.jpg); /* Фоновый цвет и фоновый рисунок*/
 	color: #fff; 
 	background-attachment: fixed; 
 	background-repeat: repeat-x; 
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .icons b {
     text-align: center;
@@ -85,25 +90,25 @@ nav {
     border: 2px solid rgb(73, 3, 3);
 }
 .classs {
-    width: 250px;
+    width: 350px;
     height: 250px;
     border: 2px solid rgb(255, 166, 166);
     border-radius: 10px;
-
+    margin: 10px
 }
 .xet {
-    text-align: left;
-    padding-left: 70px;
+    line-height: 200px;
+    padding-left: 10px;
     font-size: 30px;
 }
 .zet {
-    text-align: left;
-    padding-left: 75px;
+    line-height: 200px;
+    padding-left: 10px;
     font-size: 30px;
 }
 .ret {
-    text-align: left;
-    padding-left: 60px;
+    line-height: 200px;
+    padding-left: 10px;
     font-size: 30px;
 }
 h2 {
@@ -116,16 +121,7 @@ a {
     text-decoration: none;
     color: rgb(83, 0, 238);
 }
-.class4 {
-    background-color: rgb(223, 242, 255);
-    border: 0.8 px solid rgb(252, 170, 170);
-    border-radius: 8px;
-    padding: 15px;
-    color: black;
-    text-indent: 30px;
-    line-height: 28px;
-    font-size: 20px;
-}
+
 footer {
     background-color: #fbfde5;
     font-size: 16px;
@@ -291,4 +287,41 @@ footer {
     background: rgba(247, 0, 148, 0.4);
     box-shadow: 0px 4.66667px 24px 3px rgba(247, 0, 148, 0.2);
   }
+}
+body, html {
+  height: 100%;
+}
+.tab-content {
+    border-color: #f5eded;
+    border-style: solid;
+    border-width: 1px 1px 1px;
+    overflow: auto;
+    padding: 19px;
+    background: #b6b6e0;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 4px 10px rgba(35, 33, 33, 0.12), 1px -2px 30px 1px rgba(53, 49, 49, 0.27);
+    color: black;
+    margin: 20px;
+}
+
+.col-md-6 {
+    width: 32%;
+}
+.tab-conten {
+    border-color: #f5eded;
+    border-style: solid;
+    border-width: 1px 1px 1px;
+    overflow: auto;
+    padding: 19px;
+    background: #e0b6d9;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 4px 10px rgba(35, 33, 33, 0.12), 1px -2px 30px 1px rgba(53, 49, 49, 0.27);
+    color: black;
+    margin: 20px;
+}
+
+.col-md-5 {
+    width: 32%;
 }
